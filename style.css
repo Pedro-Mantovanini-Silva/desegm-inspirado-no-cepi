@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
-    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -28,8 +29,27 @@ nav ul{
     justify-content: center;
 }
 
+nav ul li {
+    margin: 0 15px;
+}
+
 nav ul li a {
     color:white;
     text-decoration: none;
     font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
