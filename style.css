@@ -151,3 +151,21 @@ footer {
         font-size: 1.6rem;
     }
 }
+
+@media (max-width: 480px){
+    nav ul{
+
+    }
+    nav ul li{
+        margin: 10px  0;
+    }
+    main{
+        margin: 10px;
+    }
+    form button, form textarea{
+        padding: 8px;
+    }
+    form button{
+        
+    }
+}
